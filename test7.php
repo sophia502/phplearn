@@ -17,10 +17,12 @@
     }
 //    echo count($users);
     if (isset($_POST['delete'])){
-        $user=$_SESSION['users'];
-        array_pop($user);
-        $users=$user;
-        $_SESSION['users']=$user;
+//        $user=$_SESSION['users'];
+//        array_pop($user);
+//        $users=$user;
+//        $_SESSION['users']=$user;
+        array_pop($users);
+        $_SESSION['users']=$users;
     }
 ?>
 <!doctype html>
