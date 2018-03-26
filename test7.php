@@ -1,6 +1,4 @@
 <?php
-
-
 //    echo var_dump($arr);
     session_start();
     $users=array();
